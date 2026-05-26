@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile | Creative Developer</title>
+    <meta name="description" content="Personal profile and portfolio showcasing skills, projects, and creative work.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Sakshi.<span>dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content glass-panel">
+            <div class="hero-text">
+                <span class="greeting">Hi there! 👋 I am</span>
+                <h1 class="name">Sakshi</h1>
+                <h2 class="title">Creative <span class="gradient-text">Developer</span></h2>
+                <p class="bio">
+                    I build stunning, responsive, and dynamic web experiences.
+                    Passionate about UI/UX and turning complex problems into beautiful interfaces.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="profile_picture.png" alt="Sakshi - Profile Picture"
+                        onerror="this.src='https://via.placeholder.com/400x400/1a1a2e/0f3460?text=Profile+Pic'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About <span class="gradient-text">Me</span></h2>
+        </div>
+        <div class="about-content glass-panel">
+            <div class="about-text">
+                <p>
+                    I'm a passionate developer with a keen eye for design. I love creating web applications that not
+                    only function flawlessly but also provide an exceptional user experience. When I'm not coding, you
+                    can find me exploring new technologies, contributing to open source, or enjoying a good cup of
+                    coffee.
+                </p>
+                <div class="interests">
+                    <h3>Interests & Hobbies</h3>
+                    <ul class="interest-list">
+                        <li><i class="fa-solid fa-code"></i> Coding & Open Source</li>
+                        <li><i class="fa-solid fa-gamepad"></i> Gaming</li>
+                        <li><i class="fa-solid fa-camera"></i> Photography</li>
+                        <li><i class="fa-solid fa-plane"></i> Traveling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>My <span class="gradient-text">Skills</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card glass-panel">
+                <i class="fa-brands fa-html5 skill-icon" style="color: #e34f26;"></i>
+                <h3>HTML5</h3>
+                <p>Semantic & Accessible</p>
+            </div>
+            <div class="skill-card glass-panel">
+                <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+                <h3>CSS3 / UI</h3>
+                <p>Flexbox, Grid, Animations</p>
+            </div>
+            <div class="skill-card glass-panel">
+                <i class="fa-brands fa-js skill-icon" style="color: #f7df1e;"></i>
+                <h3>JavaScript</h3>
+                <p>ES6+, DOM Manipulation</p>
+            </div>
+            <div class="skill-card glass-panel">
+                <i class="fa-brands fa-react skill-icon" style="color: #61dafb;"></i>
+                <h3>React</h3>
+                <p>Components, Hooks, State</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>My <span class="gradient-text">Portfolio</span></h2>
+        </div>
+        <div class="portfolio-grid">
+            <div class="project-card glass-panel">
+                <div class="project-image">
+                    <img src="project_thumbnail_1.png" alt="Project 1"
+                        onerror="this.src='https://via.placeholder.com/600x400/1a1a2e/e94560?text=Project+1'">
+                    <div class="project-overlay">
+                        <a href="#" class="view-btn"><i class="fa-solid fa-eye"></i> View</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Dashboard Analytics</h3>
+                    <p>A modern analytics dashboard built with beautiful data visualizations and dark mode support.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card glass-panel">
+                <div class="project-image">
+                    <img src="project_thumbnail_2.png" alt="Project 2"
+                        onerror="this.src='https://via.placeholder.com/600x400/1a1a2e/e94560?text=Project+2'">
+                    <div class="project-overlay">
+                        <a href="#" class="view-btn"><i class="fa-solid fa-eye"></i> View</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A fully responsive e-commerce front-end with floating 3D elements and smooth animations.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In <span class="gradient-text">Touch</span></h2>
+        </div>
+        <div class="contact-content glass-panel">
+            <div class="contact-info">
+                <h3>Let's Connect!</h3>
+                <p>I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll try
+                    my best to get back to you!</p>
+                <div class="social-links">
+                    <a href="mailto:24sakshishinde@gmail.com" class="social-icon" title="Email Me"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/sakshi2416" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/sakshishinde24" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                        class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sai. Built with <i class="fa-solid fa-heart" style="color: #e94560;"></i> and Coffee.</p>
+    </footer>
+
+    <script>
+        // Add a simple scroll effect for navbar
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission prevent default for demo
+        document.querySelector('.contact-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = 'Sent! <i class="fa-solid fa-check"></i>';
+            btn.style.background = 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)';
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.style.background = '';
+                document.querySelector('.contact-form').reset();
+            }, 3000);
+        });
+    </script>
+</body>
+
+</html>
